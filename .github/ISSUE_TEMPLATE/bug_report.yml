@@ -1,0 +1,94 @@
+name: "Bug report"
+description: Create a report to help us improve
+labels: bug
+body:
+- type: markdown
+  attributes:
+    value: |
+      Please [search for existing issues](https://github.com/Jods-GH/CheatDeath/issues) before creating a new one.
+
+- type: textarea
+  attributes:
+    label: Description
+    description: What did you expect to happen and what happened instead?
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: Ark Game Version
+    description: |
+      You can see the current version in the bottom right of the Main menue.
+    placeholder: "25.33(CL 449567)"
+  validations:
+    required: true
+ 
+- type: dropdown
+  id: networkauthority
+  attributes:
+    label: Which version are you playing?
+    description: Are you playing single player or on a server?
+    options:
+      - Server user (Default)
+      - Singleplayer
+      - Server owner (the server specific version)
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: mod Version
+    description: |
+      You can see the current version in the modlist tab under installed mods below project details.
+    placeholder: "1"
+  validations:
+    required: true    
+
+- type: checkboxes
+  id: testing
+  attributes:
+    label: Tested with only the Mod loaded
+    description: Did you try having only cheat death as an enabled mod and everything else disabled?
+    options:
+      - label: "Yes"
+      - label: "No"
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: log
+    description: |
+      Do you have an error log of what happened? 
+    placeholder: Click here to attach your Saved Variables by drag and dropping them into this field. Check both in saved/logs and saved/crashes
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Reproduction Steps
+    description: Please list out the steps to reproduce your bug.
+    placeholder: |
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
+  validations:
+    required: true
+    
+- type: input
+  attributes:
+    label: Last Good Version
+    description: |
+      Was it working in a previous version? If yes, which was the last good one?
+    placeholder: "1"
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Screenshots
+    description: If applicable, add screenshots to help explain your problem.
+    placeholder: Click here to attach your screenshots via the editor button in the top right.
+  validations:
+    required: false
