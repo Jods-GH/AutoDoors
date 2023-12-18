@@ -31,4 +31,4 @@ jobs:
           destination_folder: 'Addons/AutoDoors/'
           user_email: ${{ secrets.USER_MAIL }}
           user_name: ${{ secrets.USER_NAME }}
-          commit_message: 'Update DungeonAuraTools for newest ReadMe version'
+          commit_message: 'Update AutoDoors for newest ReadMe version'
