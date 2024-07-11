@@ -10,7 +10,7 @@ Using the intuitive "R" menu, effortlessly place these automatic doors wherever 
 [//]: # (Links)
 
 [Discord]: https://discord.com/invite/v3gYmYamGJ (Join the Discord)
-[PayPal]: https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG (Donate via PayPal)
+[PayPal]: https://ko-fi.com/jodsderechte (Donate via PayPal)
 [Curseforge]: https://www.curseforge.com/ark-survival-ascended/mods/autodoors
 
 [//]: # (Images)
